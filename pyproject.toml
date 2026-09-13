@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hsdd"
+version = "0.1.0"
+description = "Transmission-line, crosstalk and signal-integrity formulas for high-speed digital design"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Noah Bean" }]
+keywords = [
+    "signal-integrity", "transmission-line", "microstrip", "stripline",
+    "impedance", "crosstalk", "pcb", "high-speed-digital",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.optional-dependencies]
+sim = ["numpy>=1.17"]
+test = ["pytest>=7", "numpy>=1.17"]
+
+[project.scripts]
+hsdd = "hsdd.cli:main"
+
+[project.urls]
+Source = "https://github.com/noahbean/hsddpy"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

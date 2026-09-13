@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest c7bd1a9949e1835a68ad1f9208a6619b?>
+<worksheet version="2.0.2" xmlns="http://schemas.mathsoft.com/worksheet20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet20" xmlns:ml="http://schemas.mathsoft.com/math20" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1">
+	<pointReleaseData/>
+	<metadata>
+		<generator>Mathcad Professional 13.0</generator>
+		<userData>
+			<title/>
+			<description/>
+			<author>Howard Johnson</author>
+			<company/>
+			<keywords/>
+			<revisedBy>Howard Johnson</revisedBy>
+		</userData>
+		<identityInfo>
+			<revision>1</revision>
+			<documentID>6945d607-bef2-4ccd-b198-69627499a88e</documentID>
+			<versionID>a10821c9-84e1-4ac9-8a38-df4a3cc7ca2b</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Courier" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#000080"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="narrow-dot" derivative="derivative" literal-subscript="small" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="Variables" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Constants" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 3" font-family="System" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 4" font-family="Script" font-charset="255" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 5" font-family="Roman" font-charset="255" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 6" font-family="Modern" font-charset="255" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Math Text Font" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="mass" length="length" time="time" current="charge" thermodynamic-temperature="temperature" luminous-intensity="luminosity" amount-of-substance="substance"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"/>
+				<results>
+					<general precision="4" show-trailing-zeros="false" radix="dec" complex-threshold="10" exponential-threshold="3" imaginary-value="i" zero-threshold="15"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="false" simplify-units="false" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="true" header-footer-start-page="1" paper-code="1" orientation="portrait" print-single-page-width="false" page-width="612" page-height="792">
+				<margins left="86.4" right="86.25002" top="86.4" bottom="86.4"/>
+				<header use-full-page-width="true"/>
+				<footer use-full-page-width="true">
+					<right>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fprq14\fcharset0 Arial;}}
+\viewkind4\uc1\pard\qr\f0\fs20\{f\} -- \{fd\} -- p.\{n\}
+\par }
+</right>
+				</footer>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="EN" UI="EN"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="true" optimize-expressions="false" exact-boolean="false" strings-use-origin="false" zero-over-zero="0">
+				<compatibility multiple-assignment="MC11" local-assignment="MC11"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="mks" customized="false"/>
+			</units>
+		</calculation>
+		<editor protection-level="none" view-annotations="false" view-regions="false">
+			<ruler is-visible="false" ruler-unit="in"/>
+			<plotTemplate>
+				<xy item-idref="1"/>
+			</plotTemplate>
+			<grid granularity-x="6" granularity-y="6"/>
+		</editor>
+		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="false" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="16131" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="1" left="6" top="3.75" width="424.5" height="12" align-x="6" align-y="12" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">GENERAL RELATIONS AMONG TRANSMISSION LINE PARAMETERS file: general.mcd</p>
+			</text>
+		</region>
+		<region region-id="2" left="6" top="39.75" width="294" height="12" align-x="6" align-y="48" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Conversion formulas included in this spreadsheet:</p>
+			</text>
+		</region>
+		<region region-id="3" left="18" top="63.75" width="282" height="60" align-x="18" align-y="72" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Inductance and capacitance to impedance</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Inductance and capacitance to propagation delay</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Effective permittivity to propagation delay</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Impedance and propagation delay to capacitance</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Impedance and propagation delay to inductance</p>
+			</text>
+		</region>
+		<region region-id="4" left="330" top="63.75" width="42" height="60" align-x="330" align-y="72" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Z0()</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">PDLY1()</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">PDLY2()</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">CPI()</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">LPI()</p>
+			</text>
+		</region>
+		<region region-id="5" left="6" top="129.75" width="90" height="12" align-x="6" align-y="138" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Variables used:</p>
+			</text>
+		</region>
+		<region region-id="6" left="18" top="153.75" width="234" height="60" align-x="18" align-y="162" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">lpi<sp count="5"/>Inductance per inch (H)</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">cpi<sp count="5"/>Capacitance per inch (F)</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">pdly<sp count="4"/>Propagation delay (s/in.)</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">z0<sp count="6"/>Line impedance (<f family="Symbol" charset="2">W</f>)<sp count="11"/>
+				</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">eeff<sp count="4"/>Effective relative permittivity</p>
+			</text>
+		</region>
+		<region region-id="7" left="6" top="225.75" width="312" height="24" align-x="6" align-y="234" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Given inductance per inch and capacitance per inch, </p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">find the characteristic impedance in ohms: </p>
+			</text>
+		</region>
+		<region region-id="8" left="144" top="252.75" width="79.5" height="29.25" align-x="194.25" align-y="270" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+					<ml:function>
+						<ml:id xml:space="preserve">Z0</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">lpi</ml:id>
+							<ml:id xml:space="preserve">cpi</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:sqrt/>
+						<ml:apply>
+							<ml:div/>
+							<ml:id xml:space="preserve">lpi</ml:id>
+							<ml:id xml:space="preserve">cpi</ml:id>
+						</ml:apply>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="2"/>
+		</region>
+		<region region-id="9" left="6" top="315.75" width="312" height="24" align-x="6" align-y="324" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Given inductance per inch and capacitance per inch, </p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">find the propagation delay per inch: </p>
+			</text>
+		</region>
+		<region region-id="10" left="126" top="349.5" width="106.5" height="14.25" align-x="193.5" align-y="360" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+					<ml:function>
+						<ml:id xml:space="preserve">PDLY1</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">lpi</ml:id>
+							<ml:id xml:space="preserve">cpi</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:sqrt/>
+						<ml:apply>
+							<ml:mult style="default"/>
+							<ml:id xml:space="preserve">lpi</ml:id>
+							<ml:id xml:space="preserve">cpi</ml:id>
+						</ml:apply>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="3"/>
+		</region>
+		<region region-id="11" left="6" top="381.75" width="414" height="24" align-x="6" align-y="390" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Given the effective electric permittivity of the surrounding medium, </p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">find the propagation delay per inch: </p>
+			</text>
+		</region>
+		<region region-id="12" left="108" top="411" width="138.75" height="18.75" align-x="165" align-y="426" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+					<ml:function>
+						<ml:id xml:space="preserve">PDLY2</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">eeff</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:mult style="default"/>
+						<ml:apply>
+							<ml:mult style="default"/>
+							<ml:real>84.72</ml:real>
+							<ml:apply>
+								<ml:pow/>
+								<ml:real>10</ml:real>
+								<ml:real>-12</ml:real>
+							</ml:apply>
+						</ml:apply>
+						<ml:apply>
+							<ml:sqrt/>
+							<ml:id xml:space="preserve">eeff</ml:id>
+						</ml:apply>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="4"/>
+		</region>
+		<region region-id="13" left="6" top="453.75" width="414" height="12" align-x="6" align-y="462" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Given impedance and propagation delay, find the capacitance per inch:</p>
+			</text>
+		</region>
+		<region region-id="14" left="144" top="482.25" width="87.75" height="27.75" align-x="203.25" align-y="498" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+					<ml:function>
+						<ml:id xml:space="preserve">CPI</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">zo</ml:id>
+							<ml:id xml:space="preserve">pdly</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:div/>
+						<ml:id xml:space="preserve">pdly</ml:id>
+						<ml:id xml:space="preserve">zo</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="5"/>
+		</region>
+		<region region-id="16129" left="6" top="525.75" width="408" height="12" align-x="6" align-y="534" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">Given impedance and propagation delay, find the inductance per inch:</p>
+			</text>
+		</region>
+		<region region-id="16131" left="138" top="555" width="96" height="12.75" align-x="196.5" align-y="564" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+					<ml:function>
+						<ml:id xml:space="preserve">LPI</ml:id>
+						<ml:boundVars>
+							<ml:id xml:space="preserve">zo</ml:id>
+							<ml:id xml:space="preserve">pdly</ml:id>
+						</ml:boundVars>
+					</ml:function>
+					<ml:apply>
+						<ml:mult style="default"/>
+						<ml:id xml:space="preserve">zo</ml:id>
+						<ml:id xml:space="preserve">pdly</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="6"/>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1" content-encoding="gzip">H4sIAAAAAAAA/2yNuw7CIBiF+aFqrfUyOqmJi3T0CToYJxMfoWKtt8RoKoOjb46Hn3YTcuBw
++DikQgiCDJSwV1jHp3Vxqc3rWpyf9cPYjvBjCfU53hhrOBIrKH6U++O9Km2IDmETcoFFNf0z
+aMrenxLzub23XK2YzaCcGjYMhyko+5/u/qRtec/WpqzWG8lXugHnNBGkgyPSko0krdgo0hGb
+yDPOzakD5psj6bZMD4zzJuYeMH3f45AkYJxPBr7HP0/B8PNh+9eIGZgx/wXmBwAA//8DAKJU
+koN8AQAA</item>
+		<item item-id="2">iVBORw0KGgoAAAANSUhEUgAAAGoAAAAnCAYAAADn590lAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AnlJREFUeF7tWwFuwzAI7P7/6K2tkskmwJ0NTpONSJPWxQZ8Z+BsdV/fz+dRz/UReBFVz/UR
+eFw/xIrwXfUKhnwEnnX01U5yf/LDLIsvkrKffIvZEd7QXhF1E9IsolgCtXGVUQvIV4Heetas
+uyJqFjlnXjSjNNNFVDJRXnlr3+2/7+qwDaNKXzIp6s53FJ8khyWuzlELiBvNqD0EjbQuyxbE
++q9NFlE3oX+EKCuLqkedQLan+FrhYImJ9urJLH3W/VRbRzWVwtbZ0eYbwdWLM2IXzY0caj3b
+nTy3Dmpv1SHUjPf5UyCduREsUE8hSjr3lAhUKQsuJtFujoI3ax+dgTRcRzezeeBlM4g5hY8e
+7qzMkIsbscs2+ShZbEaN+lGJ8kqg7EeIKK05egCj8iXnapmt7VYGQNSjGXAZP4ydQxZ65c5L
+6RYwFtxZ0YE2A2N3FYAIP4v8kb+/NQJbX61SyICIhAfaYYwPKXhQ6UblVasEs3Giecz7X6IQ
+GFGiLPHB7HRvLmuX8cMA5o1Z6aMjCtVor9/IzGz7hNWTLHvagr2+I9+xcWolM0LWKUStDHB0
+Aez47HERDGTpjdqCYmLWgQcaC+joYhm7zJjZNSMhkWX3ICaihr2SlQ0Y0+yzfSJ8sv11/Rc5
+r/c8AtlEdX2fD6NGIgSKKITQRd4jojw16qna9B51Ebw+FgYrqORxpetF22X24cjxsVXd3DHK
+AFYRSnI10iqjgpvFA7mICoKbPb0tY55tM1PEN2gro7IZ2uyxRO2HeSsLDz2p+bedKn1J5Gn9
+ijWNlOJup77SzCLqjCuiEkA8ywSbGd1tgyhvbo87ayF/3c8MUSOY/ABx+MZqtT1l2gAAAABJ
+RU5ErkJggg==</item>
+		<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAAI4AAAATCAYAAABGBTWVAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AedJREFUaEPtWduuwzAI2/n/jz5bK0VCmcEmSddGotIeVggBYy7a/v4/z6ueQiCLwEGcegqB
+LAKv7IHSLwTOKVUw7IXAZ6Icq8X9n71gK28P0jzheYYXT0BiEx8eRxzU/hqWXmu0WFudPgdI
+5r3z8mcBU8FT9bKcab5nz83q9/Go8al6qn9n/H3yve/o8kwg7HyUjJ40q4FQAUMFMXp25NyT
+cJgizrldm5nLEsp0GblsBxwB/oozLOaVd2YKdeW9yNYtxPHAVoFBBEQdS01qNDYVu9E9qg9K
+oiN8mkzxV10lWmNA934RB4HYd5bMOEO6q4iTTTisHNAxs3YVclibHsaMPB5xsv6y/Cn2wo4T
+7T9obKgAKgvwKFnZOFT3FKW6rxqdateIYvVkI10drSRFHOd3kdXEyXYcJcEjxFlVOFPEyQYX
+dREkU0ZaX50zHac/O1u1bPQwOYtl1F82qtBu83WXbbeoRVojfdX0DqCq8nQyC1pkowWECOS9
+8+729jGUIJbUFWOMdRQbXwaHJfEz1t8tZ3sTk6ut+Wq9URwtISIbWRyYP8zeFn85REGwAJUF
+H4Go2FV0WIKY3JsCo0Rn96mdcgvieLuRHY0qIIqeYvcXpJGTaP4tV+JjOlL8zEjJ70fglyRV
+o30DHPqCa2tmxHcAAAAASUVORK5CYII=</item>
+		<item item-id="4">iVBORw0KGgoAAAANSUhEUgAAALkAAAAZCAYAAABtsY+yAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+Aq9JREFUeF7tWdlywjAMbP//o1tgJowRknZlyyYxYqYPEEfH7upI+vt3+/zUpxDYGYG7yOtT
+COyMwM/OyVVuhcBjUykYCoHdESiR787wpPxuK/yb5ftvx98kt11mS+RdsH33TZqQpei1IvgU
+aiXyTyF/cb9IxOj6yvRL5CvR3sgXEjG6vhKKEvlKtDfyhUSMrq+EokS+Eu0T+2ofGpkHSE/E
+vQK3Yhj+/cS4V2gnRsAScq/AH++zlTc2GRBUJ89A8QttWK8QDyh6BNtzDwP9U+TaSGgD9q4f
+VWi9I9XGn/wNjchRAKL+GPCYMygvq4OxfKAYLDFaXCF7FtdIH8juKL9aXM+YWufSUfsdVS4a
+N979nl9kF4En75fkjpCNfKO8WmKkLetexqZsTizHKJ+Z10dFLrX68p0FwAoCFYJl30sqYpMB
+nhHGKMhaHMjvcR35ZrEaiYHBceYZhAHy7TboT4gcJcSQb3Vgq1Nr4xSJ0MMGgd52U28lYSbV
+t4o8i+OXB08pBIbkSNdlxSsF4o1yy78XFzOVLBEzxYJWD22F8opmNF62kbGFO+Oc24mbty4M
+32/4MkL2uk1E5NGu5ZHbik3uoFo3Z/JEE6aHXK2wsyYIYwedmZEzakoopkMnWRy/dXKvg6Gd
+jwEsMnqjHYw9z56z8tW6OcKmLfDINBiJVWsqjMB6ijlyDxNDNG93EjAdDu2U3nrBJGSNbyZR
+Znz1xBAhjW0MTD6zVx0Wi4z82RVMwyXKKyVybTRYa4BcB7Txgs7I4pLdDa02mv02Di12GScj
+KK+AGSF4uGq2LXI9Lrwii/DA5JN1BuWpcSkxYDk+/X88mRUoA/hVfjJi3cXGgfls7E8vctTR
+MwifDXJGjDvasKZxdq6XEPlMoZfAsyUVs7cC/8uIPAZdnb4KAitE/g+cdAKDBEFFHgAAAABJ
+RU5ErkJggg==</item>
+		<item item-id="5">iVBORw0KGgoAAAANSUhEUgAAAHUAAAAlCAYAAAB8iqZLAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+Aj5JREFUeF7tmduWwiAMRfX/P3pGHakYc6UBs5jTJ7U0hLPJhXr9uV0XXHspcIeKay8FLnst
+B6t5ZF7IsJ8CgFqc6a3YHx72nzW3AbUw1DvEBrL/bLkMqJZCX76PSP0yAO/0VvTRCG126XPi
+d68jGJejQAMmRSD93TPu+a7hVXtzXIWViAK04dFSrAfqh72IMxibo0AG1D46ATWHyykrtJPV
+olGqr4B6CkH+wyONEleLaS09GirqMn2Y67C4nSado7wH5nzp/ixGjgSrfM2ch7P1dk7lcv1I
+Eact+Cxgll2aujxiesZY81r3s+aQ7BxQxQHKayovcGuRM+9HInXFZpTSaEQDy4YJtZ/M27Wx
+KeH5yotzyHKSKxEttWpzSemXKzFa8yLNHwGxcmwYqqdgS0JzkaBtFE4IaVNItqVIteb1pMje
+l+jGnAk5DFVyxpvmssSUMshINrE2YRYAaRNk/v7ITlYdGYGl7fIqUPvUPAq1fKTS+uP57o0W
+Le1akLUUbKVzrnZyPo9CzYrgbDsff71pNZM2E72o/b3MRombs9m3/KHRqNmKNEOeepsNKmJv
+2v+pmQsfiWavCLtF6VtN9YoQGZcBdqboM21HdMoeOy1SrQZsdCEZRwetxIz6Vem56VArLfa/
++AKoG5IG1CJQuTOvdLqwXAZUS6FF96WXPCOdP6AuguadxoLoOVEAqlftReMAdZHQq6bhUrAF
+mfMNkbqKmDEPGqUiIKq6gUitSuaEX4B6QryqjwJqVTIn/PoFbva7n/yzAOEAAAAASUVORK5C
+YII=</item>
+		<item item-id="6">iVBORw0KGgoAAAANSUhEUgAAAIAAAAARCAYAAAAVBKQtAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AZhJREFUaEPtWNEOgzAIdP//0Zsu0yABjqslmrVN9jJZyx0H1/l6r2uZa1wGNgHMNS4Dy7jQ
+J/Lv9J80jM3AIYDVBLe7wPejl3ymY9Dv7qRXYrFwydzQ8ztxsGdTuLMkaILQIXcTKoXqCdsS
+Okv20+JZ3Kd2j4rGCODu4u9FQSK1iveU3K8Ii8HdXQA9LSQqELKr39/bY4s9L21ZloUxjZAp
+VKuFWtO5O27GAjy/R4rznkdTxSu+dQfxOr713MwUsIrq/a41D4mrCnfzBPCEw3QPKwDd1V6X
+IwtgBJvp8GwMwhvl1WrBSHxDCkAKx7MsVFRmAliCRGJGF9SsWDzhHJaILEB6p0cK6qjIj9H5
+FhFI1ft5cmwiItg8kECiAnqcoulZgdt8D6C93vP+DNE6xvIy/Z32vquXIS//jGejTswIwZoW
+kb979x/JZdQYUmAWtychZQCwMZGSr+5Vubc1ltl8q+KrcJe9Cu6RcKs/Z4pQuXfmfDamB5/m
+vYNNhInvlTQ7LqMcWTtg8FbFRhacPdPFnd1gxv0nAx8cz1wvDap3/wAAAABJRU5ErkJg
+gg==</item>
+	</binaryContent>
+</worksheet>
